@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		FF41EF352BBECD9E004AF40B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41EF342BBECD9E004AF40B /* AppDelegate.swift */; };
-		FF41EF372BBECD9E004AF40B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41EF362BBECD9E004AF40B /* SceneDelegate.swift */; };
 		FF41EF392BBECD9E004AF40B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41EF382BBECD9E004AF40B /* ViewController.swift */; };
 		FF41EF3C2BBECD9E004AF40B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FF41EF3B2BBECD9E004AF40B /* Base */; };
 		FF41EF3E2BBECD9F004AF40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF41EF3D2BBECD9F004AF40B /* Assets.xcassets */; };
 		FF41EF412BBECD9F004AF40B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FF41EF402BBECD9F004AF40B /* Base */; };
+		FF41EF492BBEDC36004AF40B /* Fheory_screenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41EF482BBEDC36004AF40B /* Fheory_screenViewController.swift */; };
+		FFCE88512BBFE399003A239A /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCE88502BBFE399003A239A /* HelloWorld.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF41EF312BBECD9E004AF40B /* screen_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = screen_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF41EF342BBECD9E004AF40B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF41EF362BBECD9E004AF40B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FF41EF382BBECD9E004AF40B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF41EF3B2BBECD9E004AF40B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF41EF3D2BBECD9F004AF40B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF41EF402BBECD9F004AF40B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF41EF422BBECD9F004AF40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF41EF482BBEDC36004AF40B /* Fheory_screenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fheory_screenViewController.swift; sourceTree = "<group>"; };
+		FFCE88502BBFE399003A239A /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				FF41EF342BBECD9E004AF40B /* AppDelegate.swift */,
-				FF41EF362BBECD9E004AF40B /* SceneDelegate.swift */,
 				FF41EF382BBECD9E004AF40B /* ViewController.swift */,
 				FF41EF3A2BBECD9E004AF40B /* Main.storyboard */,
 				FF41EF3D2BBECD9F004AF40B /* Assets.xcassets */,
 				FF41EF3F2BBECD9F004AF40B /* LaunchScreen.storyboard */,
 				FF41EF422BBECD9F004AF40B /* Info.plist */,
+				FF41EF482BBEDC36004AF40B /* Fheory_screenViewController.swift */,
+				FFCE88502BBFE399003A239A /* HelloWorld.swift */,
 			);
 			path = screen_2;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCE88512BBFE399003A239A /* HelloWorld.swift in Sources */,
 				FF41EF392BBECD9E004AF40B /* ViewController.swift in Sources */,
+				FF41EF492BBEDC36004AF40B /* Fheory_screenViewController.swift in Sources */,
 				FF41EF352BBECD9E004AF40B /* AppDelegate.swift in Sources */,
-				FF41EF372BBECD9E004AF40B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +311,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "divyesh.screen-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,6 +343,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "divyesh.screen-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
